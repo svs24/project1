@@ -1,0 +1,48 @@
+Powershell commands glossary
+
+Sure, here are some commonly used Windows PowerShell commands by DevOps professionals:
+
+### File System Manipulation:
+- **`Get-ChildItem`**: Lists files and directories in the current location.
+- **`Set-Location`** or **`cd`**: Changes the current location to a specified path.
+- **`Copy-Item`** and **`Move-Item`**: Copies or moves files and directories.
+- **`New-Item`**: Creates a new file or directory.
+- **`Remove-Item`**: Deletes files and directories.
+- **`Rename-Item`**: Renames an item.
+
+### Working with Services:
+- **`Get-Service`**: Retrieves the status of services.
+- **`Start-Service`** and **`Stop-Service`**: Starts or stops a service.
+- **`Restart-Service`**: Restarts a service.
+- **`Set-Service`**: Modifies the properties of a service.
+
+### Managing Processes:
+- **`Get-Process`**: Lists all running processes.
+- **`Stop-Process`**: Terminates one or more processes.
+- **`Start-Process`**: Launches a new process.
+
+### Networking:
+- **`Test-NetConnection`**: Checks network connectivity to a specific address and port.
+- **`Get-NetAdapter`**: Retrieves network adapter information.
+- **`Test-Connection`**: Tests connectivity to a remote computer.
+- **`New-NetFirewallRule`**: Creates a new firewall rule.
+
+### Working with Modules and Packages:
+- **`Install-Module`** and **`Uninstall-Module`**: Installs or uninstalls PowerShell modules.
+- **`Find-Module`**: Finds modules in an online repository.
+- **`Update-Module`**: Updates installed modules.
+
+### System Information:
+- **`Get-WmiObject`**: Retrieves information about Windows Management Instrumentation (WMI) objects.
+- **`Get-ComputerInfo`**: Retrieves various system information.
+
+### Working with Registry:
+- **`Get-Item`**: Retrieves registry keys and values.
+- **`New-ItemProperty`**: Creates a new property in the registry.
+- **`Remove-ItemProperty`**: Removes a property from the registry.
+
+### Scripting and Automation:
+- **`Invoke-Command`**: Runs commands on local and remote computers.
+- **`Invoke-WebRequest`**: Sends HTTP/HTTPS requests and receives responses.
+- **`Invoke-RestMethod`**: Similar to `Invoke-WebRequest` but used for RESTful APIs.
+
