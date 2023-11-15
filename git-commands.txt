@@ -1,0 +1,14 @@
+GIT useful commands glossary
+cd - change directory
+ls - list the files and folders in a directory
+touch - create an empty file
+init - Initialize or start a git repository
+add - send file into the staging area, so that git starts tracking it
+commit - send files in the staging area into the history
+status - check the status of the folder and the git repository
+diff - compare the file to a committed file in the history
+log - vew the commit history in the git repositoryw
+restore - Restore file from staging area to working area
+push - push the updated file from local to online repository
+pull - pull updated file from online repo to local
+clone - copy file from online repo to local machine / directory
